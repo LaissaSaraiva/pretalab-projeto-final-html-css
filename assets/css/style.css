@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #713f61;
+  min-height: 100px;
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 40px;
+}
+
+.menu__nav ul {
+  display: flex;
+  gap: 40px;
+
+}
+
+.menu__nav li > a {
+  color: #FFF;
+  font-size: 18px;
+  border: 1px solid transparent;
+  padding: 5px 5px;
+  border-radius: 4px;
+}
+
+.menu__nav li:hover > a {
+  color: #000;
+  border-color: #FFF;
+  background-color: #FFF;
+}
+
+/* Main Section */
+
+.main__section {
+  background-color: #EDEAEA;
+  padding: 20px;
+  height: 577px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__section img {
+  width: 150px;
+  height: 150px;
+}
+
+.profile__box{
+  text-align: center;
+  max-width: 1000px;
+}
+
+.main__section h1 {
+  font-size: 36px;
+  color: #af597f;
+  font-weight: 700;
+}
+
+.profile__description {
+  margin-top: 20px;
+}
+
+.profile__description p {
+  margin-top: 5px;
+}
+
+/* Formação e Meus Projetos */
+
+section#projects {
+  background-color: #EDEAEA;
+ }
+
+.section__container {
+  padding: 20px 20px 60px 20px;
+}
+
+.section__title {
+  margin-left: 20px;
+  color: #f382a5;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.article__list ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.article__items {
+  padding: 17px 20px;
+  max-width: 750px;
+}
+
+section#projects .article__items {
+margin-bottom: 25px;
+}
+
+.article__name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #af597f;
+  margin-bottom: 8px;
+}
+
+.article__items a {
+  color:#f8b1c1;
+}
+
+.article__items a:hover {
+  text-decoration: underline;
+}
+
+.article__subtitle {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.article__items p {
+  margin-top: 8px;
+  text-align: justify;
+}
+
+/* Footer */
+
+.footer {
+  background-color:#713f61;
+  padding: 20px 30px;
+  color: #FFF;
+}
+
+.footer li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer li > a {
+  color: #FFF;
+}
+
+.footer small {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.footer small a {
+  color: #f8b1c1
+}
+
+/* Footer BTN */
+
+.footer_btn {
+  position: fixed;
+  right: 20px;
+  bottom: 25px;
+
+}
+
+.footer_btn i {
+  color: #f382a5;
+  font-size: 25px;
+  border-radius: 25%;
+  padding: 12px;
+  background-color: #000;
+}
+
+/* Paleta de Cores */
+/* .color1 {color: #4c2f4c;}
+.color2 {color: #713f61;}
+.color3 {color: #af597f;}
+.color4 {color: #f382a5;}
+.color5 {color: #f8b1c1;} */
